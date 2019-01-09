@@ -31,9 +31,12 @@ namespace exs
 			email.Inst.De="alan@gmail.com";
 			email.Inst.SendEmail();
 			Console.WriteLine(email.Inst.VerifyingIns());
+			float x=233f;
+		Console.WriteLine(string.Format("%2f",x));
 			
 				UserControl1 mt = new UserControl1();			
 			mt.ass();
+		Console.WriteLine(email.Inst);
 			email.Inst.SendEmail();
 			//Console.WriteLine("Welcome to world map "+p1.GetType());
 			//Console.WriteLine("Welcome to world map "+typeof(pessoa));
